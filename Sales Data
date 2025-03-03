@@ -1,0 +1,56 @@
+	---EXTRACT THE FOLLOWING DATA ON SQL:
+--1	Total Revenue
+select sum (total_price) As Total_Revenue
+from pizza_sales$
+
+--2	Total Pizzas Sold
+select sum (quantity) as Total_Pizzas_Sold
+from pizza_sales$
+
+--3	Total number of Orders
+select COUNT (Order_ID) as Total_Number_Of_Orders
+from pizza_sales$
+
+--4	How many order Veggie pizza category was sold
+select COUNT (pizza_category) as Total_Veggie_pizza
+from pizza_sales$
+where pizza_category='Veggie'
+
+--5	How many  The Hawaiian Pizza and  The Greek Pizza  was sold
+select sum (quantity) as Total_Hawaiian_Greek_Pizza
+from pizza_sales$
+where pizza_name in ('The Hawaiian Pizza', 'The Greek Pizza')
+
+--6	List of pizza ordered in January 2015
+select * 
+from pizza_sales$
+where order_date between '2015-01-01' and '2015-01-31'
+
+--7	List of pizza ordered between 1st of November till 31st December 2015
+select *
+from pizza_sales$
+where order_date between '2015-11-01' and  '2015-12-31'
+
+--8	What is the quantity of The Spinach Supreme Pizza sold in March 2015
+select sum (quantity) as Total_Number_Of_The_Spinach_Supreme_Pizza
+from pizza_sales$
+where pizza_name= 'The Spinach Supreme Pizza'
+and  order_date between '2015-03-01' and '2015-03-31'
+
+--9	List of Medium pizza sold
+select *
+from pizza_sales$
+where pizza_size='M'
+
+select count (pizza_name_id) as Total_Number_Of_Medium_Pizza
+from pizza_sales$
+where pizza_size='M'
+
+--10	List of pizza that sold for more than 12.5
+select *
+from pizza_sales$
+where unit_price>'12.5'
+
+select count (pizza_name_id)
+from pizza_sales$
+where unit_price='12.5'
