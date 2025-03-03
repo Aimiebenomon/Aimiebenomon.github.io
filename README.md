@@ -28,3 +28,30 @@ This dashboard serves as a crucial tool for the cookies company’s management t
 **Dashboard Overview:**
 
 ![Hospitality](Hospitality.PNG)
+
+#Project 2 
+ 
+**Title:** Sales Data - Data Manipulation and Interogation
+
+**SQL Code:** [Sales Data SQL Codes](https://github.com/Aimiebenomon/Aimiebenomon.github.io/blob/main/Sales%20Data)
+
+**SQL Skills Used:** 
+
+Data Retrieval (SELECT): Queried and extracted specific information from the database.
+Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
+Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
+Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+ 
+
+**Project Description:**
+
+This project aims to analyze customer sales and revenue data using SQL to extract insights that drive business decisions. The dataset consists of customer transactions, order details, and product information from an e-commerce business.
+Using SQL, the project performs data cleaning, aggregation, and complex queries to identify key business metrics such as total sales, average order value, customer segmentation, and product performance.
+Data cleaning and transformation using SQL functions (e.g., CASE, COALESCE, TRIM).
+Sales trend analysis using time-based aggregations (GROUP BY, DATE_TRUNC).
+Customer segmentation based on purchase behavior (JOIN, RANK, DENSE_RANK).
+Revenue contribution by product category (SUM, AVG, PARTITION BY).
+ 
+ 
+**Technology used:** SQL server
+ 
