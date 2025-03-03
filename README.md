@@ -1,6 +1,6 @@
 # Project 1
 
-**Title:** General Over-View Of Hosptality Expenses and Income Across Few Years Dashboard
+**Title:** [General Over-View Of Hosptality Expenses and Income Across Few Years Dashboard](https://github.com/Aimiebenomon/Aimiebenomon.github.io/blob/main/Pofolio%20Project%201.xlsx)
 
 **Tools Used:** Microsoft Excel (Pivot Table, Pivot Chart, Conditional Formatting,Text Box, Slicers, Timelines)
 
@@ -26,3 +26,5 @@ This dashboard serves as a crucial tool for the cookies company’s management t
  
 
 **Dashboard Overview:**
+
+![Hospitality](Hospitality.PNG)
