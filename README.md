@@ -6,23 +6,24 @@
 
 **Project Description:**
 
-This project involved analysing product data of cookies company to identify trends and patterns in sales performance for 2020. It is designed to provide a comprehensive overview of key performance metrics. This dashboard allows stakeholders to easily monitor and analyze the company’s performance across different regions, products, and time periods. The dashboard includes the following features:
-Profit by Country and Cookies: Visual representation of profits broken down by each country and type of cookie.
-Total Units Sold per Month: A monthly breakdown of the total units sold, providing insights into sales trends over time.
-Profit by Month: Displays the monthly profit, allowing for easy comparison of profitability throughout the year.
-Total Revenue by Country: Highlights the total revenue generated in each country, showcasing the performance in different markets.
-Additionally, the dashboard includes interactive slicers and timeline for:
-Month: Filter the data to view performance for a specific month or range of months.
-Country: Focus on specific countries to analyze regional performance.
-Product: Drill down into the performance of individual cookie products.
+This project involved analysing income and expenses in hospitality industry to identify trends and patterns in sales performance as against expenses across a decade. It is designed to provide a comprehensive overview of key performance metrics. This dashboard allows stakeholders to easily monitor and analyze the company’s performance across different years and seasons. The dashboard includes the following features:
+Sum of Total Income by Year: Visual representation of income generated each year.
+Sum of Total Income by Number of Guests: A breakdown of the total income generated depending on the number of guests, providing insights of how the income realised is affected by the number of guests.
+Total Income by Season: Displays the seasonal income, allowing for easy comparison of profitability throughout the year.
+Advert/Marketing Expenses by Total Number of Guests: Highlights the trends of the effect advert/expenses have on occupancy rate; analysing significant effect it exert on revenue generation.
+Total Expenses and Income by Year: Displays yearly income and expenses to ascertain if it is the same trend across each year.
+Sum of Total Guest by Season: Visual representation of the trend in the number of guests across each season.
+Additionally, the dashboard includes interactive slicers for:
+Year: Filter the data to view performance for a specific year.
+Seasons: Focus on specific season to analyze seasonal performance.
  
 **Key findings:**
 
-Regional Profitability: Identified the most profitable countries and highlighted regions where performance could be improved.
-Seasonal Trends: Revealed patterns in sales and profit that correspond with seasonal events, allowing for more strategic planning.
-Top-Performing Products: Highlighted which cookie products are driving the most revenue and profit, aiding in inventory and marketing decisions.
-Sales Volatility: Analyzed monthly sales fluctuations to understand market dynamics and adjust business strategies accordingly.
-This dashboard serves as a crucial tool for the cookies company’s management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
+Seasonal Profitability: Identified the most profitable Seasons and highlighted seasons where performance could be improved.
+Yearly Trends: Revealed patterns in sales and profit that correspond with yearly events, allowing for more strategic planning.
+Top-Performing Seasons: Highlighted which seasons are driving the most revenue and profit, aiding in inventory and marketing decisions.
+Sales Volatility: Analyzed seasonal sales fluctuations to understand market dynamics and adjust business strategies accordingly.
+This dashboard serves as a crucial tool for the hospitality company’s management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
  
 
 **Dashboard Overview:**
